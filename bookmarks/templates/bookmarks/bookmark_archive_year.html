@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>bookmark_archive_year.html</title>
+    </head>
+    <body>
+        <h1>(Generic object) bookmark_archive_year.html</h1>
+        {% for entry in object_list %}
+            <h2>{{ entry.title }}</h2>
+            <h2>{{ entry.created }}</h2>
+            <h2>{{ entry.url }}</h2>
+        {% endfor %}
+    </body>
+
+</html>
